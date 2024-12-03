@@ -93,3 +93,4 @@ export function getPointDistance (pointOne, pointTwo) {
 
     return Math.sqrt(minusX * minusX + minusY * minusY)
 }
+

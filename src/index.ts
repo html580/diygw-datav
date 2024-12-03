@@ -15,7 +15,8 @@ for (const path in modules) {
 
 const install = (Vue: App) => {
     components.forEach(component => {
-        Vue.component("Diygw" + component.name, component)
+        Vue.component("Diygw" + (component.name || component.__name)
+            , component)
     });
 }
 

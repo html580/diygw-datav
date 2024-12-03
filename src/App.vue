@@ -412,6 +412,7 @@ const capsuleChartConfig={
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+  <DiygwBorderBox1 style="width:100%;height:300px">221</DiygwBorderBox1>
   <BorderBox1 style="width:100%;height:300px">1</BorderBox1>
   <BorderBox2 style="width:100%;height:300px">2</BorderBox2>
   <BorderBox3 style="width:100%;height:300px">3</BorderBox3>
