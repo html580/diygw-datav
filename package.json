@@ -1,0 +1,38 @@
+{
+  "name": "diygw-datav",
+  "author": "diygw",
+  "license": "MIT",
+  "version": "0.0.4",
+  "type": "module",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "unpkg": "./dist/index.umd.js",
+  "jsdelivr": "./dist/index.umd.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/html580/diygw-datav.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build --mode prod",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@jiaminghi/color": "^1.1.3",
+    "@vueuse/core": "^6.5.3",
+    "countup.js": "^2.8.0",
+    "lodash": "^4.17.21",
+    "vue": "^3.2.36"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vue-tsc": "^2.1.10"
+  }
+}
